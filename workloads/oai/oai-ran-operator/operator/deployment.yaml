@@ -17,9 +17,11 @@ spec:
         app.kubernetes.io/component: controller
     spec:
       serviceAccountName: oai-ran-operator
+      imagePullSecrets:
+      - name: github-auth
       containers:
       - name: operator
-        image: docker.io/nephio/oai-ran-controller:latest
+        image: ghcr.io/varun-chandramouli/oai-ran-controller:v2.0.0
         resources:
           limits:
             cpu: 500m
