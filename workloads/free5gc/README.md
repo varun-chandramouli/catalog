@@ -1,1 +1,0 @@
-# workloads/free5gc
