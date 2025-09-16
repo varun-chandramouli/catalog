@@ -32,7 +32,7 @@ spec:
           mnc: "01"
         tac: 1
         nssai:
-        - sd: 0x000000
+        - sd: "000000"
           sst: 1
   - apiVersion: workload.nephio.org/v1alpha1
     kind: OAIConfig
