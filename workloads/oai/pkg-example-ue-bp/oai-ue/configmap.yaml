@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: oai-nr-ue-configmap
-  namespace: oai-ue
+  namespace: regional-ue
 data:
   nr-ue.conf: |
     uicc0 = {
