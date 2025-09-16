@@ -32,7 +32,7 @@ spec:
           mnc: "01"
         tac: 1
         nssai:
-        - sd: ffffff
+        - sd: 0x000000
           sst: 1
   - apiVersion: workload.nephio.org/v1alpha1
     kind: OAIConfig
@@ -41,4 +41,4 @@ spec:
       namespace: default
     spec:
       # The following image is temporary and will be replaced in the future
-      image: "docker.io/oaisoftwarealliance/oai-gnb:v2.3.0"
+      image: "ghcr.io/ios-mcn/ios-mcn-gnb-dist:v0.1.4.rc4"
