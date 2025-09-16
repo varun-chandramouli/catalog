@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: oai-nr-ue
-  namespace: oai-ue
+  namespace: regional-ue
 spec:
   replicas: 1
   selector:
